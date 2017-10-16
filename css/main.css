@@ -22,7 +22,6 @@ header {
 
 .container {
   width: 930px;
-  border: 1px solid red;
   margin: 0 auto;
 }
 
@@ -159,4 +158,13 @@ h1 {
 
 .works img:last-child{
   float: right;
+}
+
+#experience {
+  padding-bottom: 120px;
+}
+
+.experience a{
+  text-decoration: none;
+  color: red;
 }
