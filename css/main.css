@@ -142,4 +142,21 @@ h1 {
 
 #portfolio {
   background: #f7f7f7;
+  padding-bottom: 120px;
+}
+
+.works{
+  margin-top: 70px;
+}
+
+.works img{
+  float: left;
+}
+
+.works img:nth-child(2){
+  margin-left: 20%;
+}
+
+.works img:last-child{
+  float: right;
 }
