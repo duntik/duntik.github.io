@@ -108,7 +108,7 @@ h1 {
 }
 
 .services{
-
+  margin-top: 80px;
 }
 
 .services_item{
@@ -125,8 +125,21 @@ h1 {
 .services_item p {
   color: #777;
   font-size: 14px;
+  line-height: 1.55em;
 }
 
 .services_item:last-child {
   float: right;
+}
+
+.services_item:nth-child(2){
+  margin-left: 60px;
+}
+
+#services {
+  padding-bottom: 120px;
+}
+
+#portfolio {
+  background: #f7f7f7;
 }
