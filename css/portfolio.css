@@ -5,6 +5,10 @@ html, body {
   height: 100%
 }
 
+img {
+  max-width: 100%;
+}
+
 * {
   font-family: "Roboto Condensed", Arial, sans-serif;
 }
@@ -27,7 +31,6 @@ html {
 }
 
 #primary-menu {
-  background: #FF9700;
   height: 75px;
   width: 50%;
   margin: 0 auto;
@@ -98,4 +101,21 @@ html {
 
 #primary-menu>ul>li a:hover::before {
   opacity: 1;
+}
+
+#secondary-menu {
+  color: #061727;
+  height: 75px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#secondary-menu>ul {
+  padding: 0;
+  margin: 0;
+}
+
+#secondary-menu>ul>li {
+  display: inline-block;
+  list-style: none;
 }
