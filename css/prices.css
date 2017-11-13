@@ -122,8 +122,9 @@ html {
 }
 
 .table-header {
-  text-align: center;
   padding: 10rem;
+  text-align: center;
+  margin-bottom: 5rem;
 }
 
 .table-header h2 {
@@ -164,6 +165,78 @@ html {
   width: 40rem;
   line-height: 1.4;
   color: #9fa4af;
+}
+
+.price-tags {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.price-tag {
+  border-color: #fff;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 35rem;
+  text-align: center;
+  transition: 0.5s;
+}
+
+img {
+  width: 11rem;
+}
+
+.price-tag:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 50px 10px rgba(124, 77, 255, 1);
+}
+
+.price-tag span {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin: 3rem auto 1rem;
+}
+
+.price-tag h4 {
+  font-size: 3rem;
+  color: #4f4f6f;
+  font-weight: 500;
+  margin: 1rem;
+}
+
+.price-tag h4 sub {
+  font-size: 1.4rem;
+}
+
+.price-tag h4 sup {
+  font-size: 1.4rem;
+  vertical-align: super;
+  margin-right: 0.3rem;
+}
+
+.price-tag p {
+  color: #9fa4af;
+}
+
+.price-btn {
+  background-color: #fff;
+  border: #9fa4af 1px solid;
+  border-radius: 100px;
+  color: #9fa4af;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 1rem 4rem;
+  transition: 0.5s;
+}
+
+.price-btn:hover {
+  background-color: #6e45e2;
+  color: #fff;
 }
 
 /*ARROW STYLE*/
