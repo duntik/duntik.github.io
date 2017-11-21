@@ -8,4 +8,10 @@
   html {
     font-size: 7px;
   }
+  .visible-lg {
+    display: none;
+  }
+  .m-menu-link {
+    display: block;
+  }
 }
