@@ -15,6 +15,7 @@
 
 <body>
   <ul class="m-menu">
+    <li class="close-menu">&times;</li>
     <li><a href="#" class="menu-link">Home</a></li>
     <li><a href="#" class="menu-link">Home</a></li>
     <li><a href="#" class="menu-link">Home</a></li>
@@ -128,6 +129,23 @@
       <a href=""><i class="fa fa-instagram"></i></a>
     </div>
   </div>
+
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script>
+    $(function() {
+      var link = $('.m-menu-link');
+      var close = $('.close-menu');
+      var menu = $('.m-menu');
+      link.on('click', function(event) {
+        event.preventDefault();
+        menu.toggleClass('m-menu_active');
+      });
+      close.on('click', function(event) {
+        event.preventDefault();
+        menu.toggleClass('m-menu_active');
+      });
+    });
+  </script>
 </body>
 
 </html>
