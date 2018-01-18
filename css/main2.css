@@ -110,6 +110,13 @@ html {
   font-size: 5.5rem;
 }
 
+.service-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row-reverse;
+}
+
 .second-right {
   display: flex;
   width: 50%;
