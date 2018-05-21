@@ -16,7 +16,7 @@ html {
 .first {
   display: flex;
   height: 60vh;
-  background: #CFD8DC;
+  background: #e7e5e4;
 }
 
 .left {
@@ -58,7 +58,7 @@ html {
   display: flex;
   width: 50%;
   height: 100%;
-  background: #607D8B;
+  background: #e0dfdc;
   align-items: center;
   min-height: 500px;
 }
