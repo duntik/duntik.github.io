@@ -1,0 +1,53 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.main {
+  background-color: #FFECB3;
+  border: 1px solid red;
+  display: flex;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  min-height: 600px;
+  background-size: cover;
+  position: relative;
+}
+
+.header {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 90%;
+  position: relative;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.content {
+  margin-top: 5%;
+  border: 1px solid green;
+  width: 60%;
+}
+
+.content ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.content a {
+  text-decoration: none;
+  margin: 0;
+}
+
+.title h1 {
+  color: #607D8B;
+}
